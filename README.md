@@ -41,24 +41,24 @@ Anotações sobre a utilização de comandos Git
 
 ***git rebase nomeArquivo*** - juntar duas branchs sem gerar um novo elemento 
 
-***git tag 'texto'*** -- marcar compromissos especificos no git
+***git tag 'texto'*** : realiza a marcação de compromissos especificos no git
 
-git remote -v -- lista os repositorios remotos com a url 
+***git remote -v*** : realiza a listagem de todos os repositorios remotos com a url 
 
-git commit -a <comentario> -- adicionar um arquivo e fazer o commit em apenas um passo 
+***git commit -a 'comentario'*** -- adicionar um arquivo e fazer o commit em apenas um passo 
 
-git log --stat --consultar os commits e suas estatisticas abreviadas
+***git log --stat*** : consultar os commits e suas estatisticas abreviadas
 
-git remote -- ver um repositorio remoto
+***git remote** : utilizado para vizualizar um repositorio remoto
 
-git merge <<nome-branch>> -- iguala a branch onde voce está com a <<nome-branch>>
+***git merge nomeBranch*** : realiza o processo de 'mesclagem' das branchs (atual e indicada), igualando a branch onde se está com a branch que foi indicada
 
-git checkout --Nome_do_Arquivo -- resetar as alterações de um arquivo 
+***git checkout --Nome_do_Arquivo*** : reseta alterações do arquivo especificado
 
-git commit --amend -- editar a mensagem do ultimo commit
+**git commit --amend*** : possibilita a edição da mensagem do ultimo commit
 
-git diff nome_do_arquivo -- ver modificações feitas no arquivo
+***git diff nomeArquivo*** possibilita vizualização das modificações realizadas no arquivo especificado
 
-git reset HEAD nome_do_arquivo -- retirar um arquivo que foi adicionado para commitar
+***git reset HEAD nomeArquivo*** : retira um arquivo que foi adicionado para o commit
 
  
