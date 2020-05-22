@@ -5,27 +5,28 @@ Anotações sobre a utilização de comandos Git
 
 ***mkdir nomePastaProjeto**** : realiza a criação de uma pasta para o projeto
 
-***cd nomePastaProjeto***
+***cd nomePastaProjeto*** : 
 
-***git init*** :  
+***git config --global user.name "nomeUsuario"*** : configura o nome de usuario do git local
+***git config --globaluser.email "email"** : configura o email do usuario do git local
+
+***git init*** :  realiza a criação de um novo subdiretorio (uma pasta .git) no diretorio atual que contém alguns arquivos que são necessarios para o repositorio
 
 ***git clone urlRepositorio*** : possibilita a realização de uma especie de 'download' do que está contido em um repositorio remoto
 
-***git add .*** : realiza a inserção das ultimas modificações para o commit
+***git remote add origin urlRepositorioRemoto*** : adiciona uma origem ao repositorio
+
+***git add .*** : realiza a inserção das ultimas modificações para o commit, 'prepara' as modificações para o commit
 
 ***git add nomeArquivo*** : realiza a inserção de um arquivo especifico para o commit 
 
 ***git commit -m 'mensagem do commit'*** : realiza o commit das modificações que foram adicionadas, possuindo uma mensagem que é aconselhada ser um resumo simplificado do que foi realizado nas modificações
 
-***git push***
+***git push*** : 
 
-***git pull***
+***git pull*** : possibilita a copia de mudanças do repositorio remoto para o local
 
-***git merge***
-
-***git status***
-
-***git log***
+***git status*** : possibilita vizualização do status dos commits incluindo quais arquivos não foram adicionados ao commit 
 
 ***git branch nomeBranch*** : realiza a criação de uma nova branch
 
@@ -46,6 +47,8 @@ Anotações sobre a utilização de comandos Git
 ***git remote -v*** : realiza a listagem de todos os repositorios remotos com a url 
 
 ***git commit -a 'comentario'*** -- adicionar um arquivo e fazer o commit em apenas um passo 
+
+***git log*** : possibilita a consulta de commits
 
 ***git log --stat*** : consultar os commits e suas estatisticas abreviadas
 
