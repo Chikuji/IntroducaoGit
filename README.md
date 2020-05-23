@@ -1,67 +1,95 @@
 # IntroducaoGit
-Anotações sobre a utilização de comandos Git
+Anotações sobre a utilização de comandos Git mostrados nos cursos 'Introdução ao GitHub e comandos para trabalhar em equipe' e 'Introdução ao Git e Controle de Versões ', na Digital e Innovation One
 
 ## Comandos
 
-***mkdir nomePastaProjeto**** : realiza a criação de uma pasta para o projeto
+`mkdir nomePastaProjeto `
+Realiza a criação de uma pasta para o projeto
 
-***cd nomePastaProjeto*** : 
+`cd nomePastaProjeto`
 
-***git config --global user.name "nomeUsuario"*** : configura o nome de usuario do git local
-***git config --globaluser.email "email"** : configura o email do usuario do git local
 
-***git init*** :  realiza a criação de um novo subdiretorio (uma pasta .git) no diretorio atual que contém alguns arquivos que são necessarios para o repositorio
+ `git config --global user.name "nomeUsuario"`
+ Configura o nome de usuario do git local
 
-***git clone urlRepositorio*** : possibilita a realização de uma especie de 'download' do que está contido em um repositorio remoto
+` git config --globaluser.email "email" `
+ Configura o email do usuario do git local
 
-***git remote add origin urlRepositorioRemoto*** : adiciona uma origem ao repositorio
+ `git init`
+ Realiza a criação de um novo subdiretorio (uma pasta .git) no diretorio atual que contém alguns arquivos que são necessarios para o repositorio
 
-***git add .*** : realiza a inserção das ultimas modificações para o commit, 'prepara' as modificações para o commit
+ `git clone urlRepositorio `
+ Possibilita a realização de uma especie de 'download' do que está contido em um repositorio remoto
 
-***git add nomeArquivo*** : realiza a inserção de um arquivo especifico para o commit 
+ `git remote add origin urlRepositorioRemoto`
+ Adiciona uma origem ao repositorio
 
-***git commit -m 'mensagem do commit'*** : realiza o commit das modificações que foram adicionadas, possuindo uma mensagem que é aconselhada ser um resumo simplificado do que foi realizado nas modificações
+ `git add  .`
+ Realiza a inserção das ultimas modificações para o commit, 'prepara' as modificações para o commit
 
-***git push*** : 
+ `git add nomeArquivo`
+ Realiza a inserção de um arquivo especifico para o commit 
 
-***git pull*** : possibilita a copia de mudanças do repositorio remoto para o local
+ `git commit -m 'mensagem do commit' `
+ Realiza o commit das modificações que foram adicionadas, possuindo uma mensagem que é aconselhada ser um resumo simplificado do que foi realizado nas modificações
 
-***git status*** : possibilita vizualização do status dos commits incluindo quais arquivos não foram adicionados ao commit 
+ `git push  `
 
-***git branch nomeBranch*** : realiza a criação de uma nova branch
+ `git pull  `
+Possibilita a copia de mudanças do repositorio remoto para o local
 
-***git checkout -b nomeBranch*** : realiza a criação de uma nova branch e troca para a mesma
+ `git status `
+ Possibilita vizualização do status dos commits incluindo quais arquivos não foram adicionados ao commit 
 
-***git branch*** : possibilita a vizualização das branches  
+ `git branch nomeBranch`
+Realiza a criação de uma nova branch
 
-***git checkout nomeBranch** : realiza a troca da branch atual para a que foi indicada 
+ `git checkout -b nomeBranch`
+ Realiza a criação de uma nova branch e troca para a mesma
 
-***git branch -D nomneBranch*** : deleta a branch indicada 
+ `git branch`
+Possibilita a vizualização das branches
 
-***git push origin nomeBranch*** : realiza o envio da branch para o git  
+ `git checkout nomeBranch`
+ Realiza a troca da branch atual para a que foi indicada 
 
-***git rebase nomeArquivo*** - juntar duas branchs sem gerar um novo elemento 
+ `git branch -D nomneBranch`
+ Deleta a branch indicada 
 
-***git tag 'texto'*** : realiza a marcação de compromissos especificos no git
+ `git push origin nomeBranch` Realiza o envio da branch para o git  
 
-***git remote -v*** : realiza a listagem de todos os repositorios remotos com a url 
+ `git rebase nomeArquivo `
+ Juntar duas branchs sem gerar um novo elemento 
 
-***git commit -a 'comentario'*** -- adicionar um arquivo e fazer o commit em apenas um passo 
+ `git tag 'texto'`
+ Realiza a marcação de compromissos especificos no git
 
-***git log*** : possibilita a consulta de commits
+ `git remote -v `
+ Realiza a listagem de todos os repositorios remotos com a url 
 
-***git log --stat*** : consultar os commits e suas estatisticas abreviadas
+ `git commit -a 'comentario' ` Adicionar um arquivo e fazer o commit em apenas um passo 
 
-***git remote** : utilizado para vizualizar um repositorio remoto
+ `git log`
+ Possibilita a consulta de commits
 
-***git merge nomeBranch*** : realiza o processo de 'mesclagem' das branchs (atual e indicada), igualando a branch onde se está com a branch que foi indicada
+ `git log --stat`
+ Consultar os commits e suas estatisticas abreviadas
 
-***git checkout --Nome_do_Arquivo*** : reseta alterações do arquivo especificado
+ `git remote`
+ Utilizado para vizualizar um repositorio remoto
 
-**git commit --amend*** : possibilita a edição da mensagem do ultimo commit
+ `git merge nomeBranch`
+ Realiza o processo de 'mesclagem' das branchs (atual e indicada), igualando a branch onde se está com a branch que foi indicada
 
-***git diff nomeArquivo*** possibilita vizualização das modificações realizadas no arquivo especificado
+ `git checkout --Nome_do_Arquivo `
+ Reseta alterações do arquivo especificado
 
-***git reset HEAD nomeArquivo*** : retira um arquivo que foi adicionado para o commit
+`git commit --amend`
+Possibilita a edição da mensagem do ultimo commit
 
- 
+ `git diff nomeArquivo  `
+ Possibilita vizualização das modificações realizadas no arquivo especificado
+
+ `git reset HEAD nomeArquivo ` Retira um arquivo que foi adicionado para o commit
+
+
