@@ -14,7 +14,13 @@ Realiza a criação de uma pasta para o projeto
 
 ` git config --globaluser.email "email" `
  Configura o email do usuario do git local
-
+ 
+ ` git config core.editor `
+ Exibe o editor vinculado ao Git ex: Vs Code
+ 
+  ` git config --global core.editor "nomeNovoEditor"`
+ Altera o editor
+ 
  `git init`
  Realiza a criação de um novo subdiretorio (uma pasta .git) no diretorio atual que contém alguns arquivos que são necessarios para o repositorio
 
